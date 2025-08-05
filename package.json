@@ -1,0 +1,50 @@
+{
+  "name": "Komodora PressKit",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://patrickrios.github.io/komodora-presskit",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@emailjs/nodejs": "^2.2.0",
+    "@types/react-scroll": "^1.8.10",
+    "framer-motion": "^11.0.8",
+    "html-react-parser": "^5.1.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.0",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.63",
+    "@types/react-dom": "^18.2.20",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.3.3"
+  }
+}

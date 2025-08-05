@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+:root{
+    --background:#2B3539;
+    --body-bg:#000;
+    --card-bg: #222B2F;
+    --card-bg-hover: #20282c;
+    --text-color: #A9B5D3;
+
+    --action-blue:#225fd8;
+
+    --menu-bg:  rgba(34,45,50,1);
+	--menu-item-text: rgba(186, 204, 238, 0.62);
+	--current-section: #8AE133;
+    --menu-item-text: rgba(186, 204, 238, 0.62);
+
+    --web-color:#8C3BEF;
+    --desk-color: #F19272;
+
+    --gray-98:#fafafa;
+    --gray-95:#F2F2F2;
+    --gray-94:#EEEEF1;
+    --gray-90:#E6E6E6;
+    --gray-80:#C7C7D1;
+    --gray-70:#ABABBA;
+    --gray-60:#8D8FA5;
+    --gray-50:#73748C;
+    --gray-30:#454554;
+    --gray-20:#2E2E38;
+    --gray-12:#1F1F1F;
+    --gray-10:#1A1A1A;
+    --gray-09:#171717;
+    --gray-06:#121212;
+}
+
+.center-container{
+    width:90%;
+    margin:0 5%;
+}
+
+.mobile-only{
+    display:block;
+}
+
+.desk-only{
+    display:none;
+}
+
+@media (min-width: 768px){
+    .desk-only{
+        display: block;
+    }
+    .mobile-only{
+        display: none;
+    }
+    .center-container{
+        width:75%;
+        margin:0 12.5%;
+    }
+}
+
+@media( max-width: 1080px){
+    html{
+        font-size:93.75%;
+    }
+}
+@media( max-width: 720px){
+    html{
+        font-size:87.5%;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+
+body, input, textarea, button{
+    font:400 1rem 'Nunito', sans-serif;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    color:#09C;
+}
+
+h2{
+    color:#94ABC0;
+}
+
+img, video, iframe{
+    max-width:100%;
+}
+
+body, html, #root{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+li{
+    list-style:none;
+}
+
+#wrapper{
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background: var(--gray-09);
+    transition: all .25s ease-in-out;
+}
+#wrapper.lightMode{
+    background:#fff;
+}
+
+dialog::backdrop{
+    background-color: rgb(0 0 0 / .5)
+}
+dialog{
+    width:100%;
+    background: transparent;
+}
+
+.section-title{
+    padding:5px 0 25px;
+    width:100%;
+    text-align: center;
+}
+
+.divider{
+    display: none;
+}
+
+@media screen and (min-width:800px) {
+    .divider{
+        display: block;
+    }
+}
