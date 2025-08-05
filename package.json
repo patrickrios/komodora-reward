@@ -1,8 +1,8 @@
 {
-  "name": "Komodora PressKit",
+  "name": "Komodora Reward",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://patrickrios.github.io/komodora-presskit",
+  "homepage": "https://patrickrios.github.io/komodora-reward",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@emailjs/nodejs": "^2.2.0",
