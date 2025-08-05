@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/komodora-reward/static/css/main.6353f9b5.css",
+    "main.js": "/komodora-reward/static/js/main.68c32a76.js",
+    "static/media/quadro-komodora-min.png": "/komodora-reward/static/media/quadro-komodora-min.10bcd9a403868fe7c541.png",
+    "static/media/komodora-last-christmas.mp4": "/komodora-reward/static/media/komodora-last-christmas.3b99ba32e7182ad4381d.mp4",
+    "static/media/komodora-saori-meme-min.png": "/komodora-reward/static/media/komodora-saori-meme-min.fa87bf1386e064f427e2.png",
+    "static/media/komodora-ype-roxo-min.png": "/komodora-reward/static/media/komodora-ype-roxo-min.e7640c32c8220d5209ee.png",
+    "static/media/komodora-subindo-em-arvore-min.png": "/komodora-reward/static/media/komodora-subindo-em-arvore-min.f28aae99af9bdb1c093b.png",
+    "static/media/komodora-parque-do-lago-min.png": "/komodora-reward/static/media/komodora-parque-do-lago-min.dfa8a1acab93415628e8.png",
+    "static/media/komodora-e-as-capivaras-min.png": "/komodora-reward/static/media/komodora-e-as-capivaras-min.97e45f2e8e352d9d221b.png",
+    "static/media/mask-background-3-min.png": "/komodora-reward/static/media/mask-background-3-min.4f16e75b4c2928d3b80a.png",
+    "static/media/komodora-absolute-art-min.png": "/komodora-reward/static/media/komodora-absolute-art-min.93a2a1d77c495f41a616.png",
+    "static/media/komodora_ype_roxo-min.png": "/komodora-reward/static/media/komodora_ype_roxo-min.4f1bff3cfce9c523a0ee.png",
+    "static/media/komodora_saori_meme-min.png": "/komodora-reward/static/media/komodora_saori_meme-min.5da56941956aa0be49cc.png",
+    "static/media/komodora_debaixo_arvore-min.png": "/komodora-reward/static/media/komodora_debaixo_arvore-min.239058f1ddb935d58376.png",
+    "static/media/komodora_vista_do_lago-min.png": "/komodora-reward/static/media/komodora_vista_do_lago-min.e78013c01b4932fc984f.png",
+    "static/media/komodora_absolute_art-min.png": "/komodora-reward/static/media/komodora_absolute_art-min.f55c7e5f03e7cee01ce3.png",
+    "static/media/komodora_e_capivaras-min.png": "/komodora-reward/static/media/komodora_e_capivaras-min.8834b755d6899e07b4cb.png",
+    "static/media/komodora_quadro.png": "/komodora-reward/static/media/komodora_quadro.e6d5ef8757c0c300f9a7.png",
+    "static/media/komodora_natal.png": "/komodora-reward/static/media/komodora_natal.afe84df82849b7e6d6c4.png",
+    "static/media/kmd_reward_header_bg-min.png": "/komodora-reward/static/media/kmd_reward_header_bg-min.96b4f7012adab0652f58.png",
+    "static/media/komodora_logo_animated.gif": "/komodora-reward/static/media/komodora_logo_animated.37773d4327093867266c.gif",
+    "index.html": "/komodora-reward/index.html",
+    "main.6353f9b5.css.map": "/komodora-reward/static/css/main.6353f9b5.css.map",
+    "main.68c32a76.js.map": "/komodora-reward/static/js/main.68c32a76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6353f9b5.css",
+    "static/js/main.68c32a76.js"
+  ]
+}
